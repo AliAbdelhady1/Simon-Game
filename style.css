@@ -1,5 +1,5 @@
 /* The general rule */
-body {
+ body {
   text-align: center;
   background-color: #011F3F;
   font-family: 'Press Start 2P', cursive;
@@ -135,16 +135,16 @@ footer {
   }
 
   .row {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
-    gap: 4vw;
+    gap: 10px;
   }
 
   .btn {
-    width: 30vw;
-    height: 30vw;
-    margin: 3vw;
+    width: 45vw;
+    height: 45vw;
+    margin: 5px 0px;
     border-radius: 18%;
     border: 4px solid black;
   }
@@ -154,3 +154,6 @@ footer {
     margin: 15px 0 15px 0;
   }
 }
+
+
+
