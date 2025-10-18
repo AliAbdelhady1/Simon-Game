@@ -4,7 +4,7 @@ let playerMode = [];
 let started = false;
 let level = 0;
 
-// تشغيل اللعبة بالكيبورد (للكمبيوتر)
+// Play the game using the keyboard (for PC)
 $(document).keydown(function () {
   if (!started) {
     $("#level-title").text("Level " + level);
@@ -13,7 +13,7 @@ $(document).keydown(function () {
   }
 });
 
-// تشغيل اللعبة بزر "Start Game" (للموبايل)
+// Play the game using the "Start Game" button (for mobile)
 $("#start-btn").click(function () {
   if (!started) {
     $("#level-title").text("Level " + level);
@@ -22,7 +22,7 @@ $("#start-btn").click(function () {
   }
 });
 
-// عند الضغط على أحد الأزرار الملونة
+// When clicking one of the colored buttons
 $(".btn").click(function () {
   let userChosenColour = $(this).attr("id");
   playerMode.push(userChosenColour);
